@@ -1,0 +1,362 @@
+
+
+/*---------------------------------------
+    Preloader section              
+-----------------------------------------*/
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #ffffff;
+}
+
+.spinner-grow {
+  background-color: #000;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  position: relative;
+}
+
+.sr-only {
+  display: block;
+  background-color: #000;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  border-radius: 8px;
+  top: 5px;
+  left: 5px; 
+}
+
+/*---------------------------------------
+    Main Navigation             
+-----------------------------------------*/
+
+.navbar {
+    background-color: #FFF3B6;
+    padding: 18px 0;
+}
+
+.navbar .navbar-brand {
+  color: #555;
+  font-family: 'Ailerons';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.navbar .navbar-nav li a {
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all 0.4s ease-in-out;
+    padding-right: 22px;
+    padding-left: 22px;
+    font-family: Bell MT;
+}
+
+
+.navbar  > li > a:hover,
+.navbar  > li > a:focus {
+    color: #606066;
+    background-color: transparent;
+}
+
+
+.nav .navbar-nav > .active > a,
+.nav .navbar-nav > .active > a:hover,
+.nav .navbar-nav > .active > a:focus {
+    color: #bfba55;
+    background-color: transparent;
+}
+
+.navbar.navbar-toggle {
+     border: none;
+     padding-top: 10px;
+  }
+
+
+
+
+/*---------------------------------------
+    Jumbotron section              
+-----------------------------------------*/
+
+.jumbotron {
+  background-color: #99ADE0;
+  background-color: transparent;
+}
+.jumbotron h1 {
+  size: 100px;
+  font-family: HolidayFree;
+}
+.jumbotron p {
+  size: 40px;
+  padding: 30px;
+  letter-spacing: 3px;
+  font-family: Ailerons;
+}
+.jumbotron p a {
+  size: 40px;
+  font-family: serif;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+
+/*---------------------------------------
+   About section              
+-----------------------------------------*/
+
+#about h3{
+  font-family: Times New Roman;
+
+}
+#about p{
+  font-family: Times New Roman;
+  font-size: 18px;
+  padding: 10px;
+}
+#about .col-md-4 img {
+  width: 200px;
+  padding: 30px 0px 30px 30px;
+}
+
+
+/*---------------------------------------
+   Gallery section              
+-----------------------------------------*/
+
+#gallery .col-md-6 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#gallery .gallery-thumb {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+  cursor: pointer;
+  display: block;
+  position: relative;
+  top: 0px;
+  transition: all 0.4s ease-in-out;
+}
+
+#gallery .gallery-thumb:hover {
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+  top: -5px;
+}
+
+#gallery .gallery-thumb img {
+  width: 100%;
+}
+
+#gallery  p {
+  padding-top: 22px;
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 18px;
+}
+#gallery  h2 {
+  padding-top: 22px;
+  text-align: center;
+  font-family: Times New Roman;
+}
+
+
+/*---------------------------------------
+   Contact section              
+-----------------------------------------*/
+
+#contact p{
+  font-family: Times New Roman;
+  font-size: 18px;
+  padding: 10px;
+}
+#contact .col-md-4{
+  padding: 10px;
+}
+
+#contact .col-md-12 {
+  padding: 10px;
+}
+
+
+#contact form {
+  padding: 32px;
+}
+
+#contact .form-control {
+  border: 2px solid #000;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact .form-control:hover {
+  border-color: #bfba55;
+}
+
+#contact input {
+  height: 50px;
+}
+
+#contact input[type="submit"] {
+  background: #000;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact input[type="submit"]:hover {
+  background: #bfba55;
+}
+
+
+/*---------------------------------------
+   Home              
+-----------------------------------------*/
+
+
+.blog-post-des .btn {
+  border-radius: 100px;
+  color: #777;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 14px 28px;
+  margin-top: 26px;
+  transition: all 0.4s ease-in-out;
+}
+
+.blog-post-des .btn:hover {
+  background: #bfba55;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+
+.blog-post-des p{
+  font-family: Times New Roman;
+  font-size: 18px;
+}
+
+
+
+
+/*---------------------------------------
+   Footer section              
+-----------------------------------------*/
+
+footer {
+    background: #000;
+    color: #ffffff;
+    padding: 80px 0px;
+    position: relative;
+}
+
+footer .col-md-4 .fa {
+  color: #ffffff;
+  padding-right: 8px;
+}
+
+footer hr {
+  border-color: #121212;
+  margin-top: 62px;
+  margin-bottom: 42px;
+}
+
+footer .footer-copyright {
+  padding-top: 12px;
+}
+footer h3{
+  font-family: HolidayFree;
+}
+
+
+
+/* Back top */
+.go-top {
+  background-color: #FFDE17;
+  transition : all 1s ease;
+  bottom: 2em;
+  right: 2em;
+  color: #000;
+  font-size: 24px;
+  display: none;
+  position: fixed;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 100%;
+}
+
+.go-top:hover {
+    background: #bfba55;
+    color: #ffffff;
+}
+
+
+
+/*---------------------------------------
+   Social icon             
+-----------------------------------------*/
+
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a {
+    border: 2px solid #292929;
+    color: #292929;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 22px 12px 10px 12px;
+}
+
+.social-icon li a:hover {
+    border-color: #bfba55;
+    color: #bfba55;
+    transform: scale(1.1);
+}
+
+
+
+
